@@ -14,6 +14,7 @@
 Present a provisional machine learning model 
 - Takes in data from the provisional database
 - Outputs label(s) for input data
+-   - Decision Tree: determine the importance of each column
 
 ## Database
 - Sample data that mimics the expected final database structure or schema
