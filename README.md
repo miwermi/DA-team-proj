@@ -10,7 +10,8 @@
 -   - Which year released the most top-rated board games?
 -   - Based on your Boardgame preference, what boardgame will you play next? 
 -   - Can we recommend board games to the user’s from our data set? 
--   - After applying machine learning to categorize these games, does that match up with the genre field? How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned? 
+-   - After applying machine learning to categorize these games, does that match up with the genre field? 
+**FINAL QUESTION DRAFT:** How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned? 
 -   - Based on ONE choice/input from the user, what recommendations from pre-existing and machine learning labels can be made? 
 
 
