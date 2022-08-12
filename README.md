@@ -28,3 +28,7 @@ Present a provisional machine learning model
 ## Database
 - Sample data that mimics the expected final database structure or schema
 - Draft machine learning module is connected to the provisional database
+
+## Ideas
+- Using some of the different mechanics (artists, player votes, user rating, designer, publisher, honors)
+- Tables in pgAdmin, ERD linkage and schematic, to help with Database Mockup and to see coorelations and possible differences in clusters for Machine Learning
