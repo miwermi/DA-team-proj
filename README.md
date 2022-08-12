@@ -2,9 +2,12 @@
 
 ## Presentation: 
 **Selected Topic** Boardgame
+
 **Reason for Selection**
 -   - Can we recommend board games to the people's likes, demographics or history?
+
 **Description of the source data**
+
 **Questions we hope to answer with the data**
    - What genre do people tend to enjoy the most? 
    - Which year released the most top-rated board games?
