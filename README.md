@@ -1,74 +1,37 @@
-# DA-team-proj
+# Overview of Project
 
-Columns with meaningful information from boardgames1.csv:  
+## Presentation: 
+**Selected Topic** Boardgame
 
-name  
+**Reason for Selection**
+   - Can we recommend board games to the people based on  likes, demographics or history?
 
-yearpublished  
+**Description of the source data**
 
-minplayers   
-
-maxplayers  
-
-minplaytime  
-
-maxplaytime  
-
-minage  
-
-usersrated (Number of users who have rated the game)  
-
-average (Average overall rating from users out of 10)  
-
-baverage (BoardGameGeek uses a weighting system to it's user ratings to prevent games with very few ratings from having a super high or super low average before a lot of ratings have come in. This rating is the BGG adjusted rating, and might not be something we want to use.)  
-
-avgweight (average user-submitted measure of "weight", out of 5)  
-
-numweights (Number of users who have submitted a weight score for the game)  
-
-numgeeklists (A "geeklist" is a list of games that users can submit, often with comments. Could be a measure of "buzz" or whatever, likely not too useful.)  
-
-numtrading (number of users who have this game available for trade with other users.)  
-
-numwanting (number of users who have indicated that they want this game.)  
-
-numcomments  
-
-numplays (Users can log when they've played a game. This is the total number of plays logged by users)  
-
-boardgamehonor_cnt (Number of honors the game was received)  
-
-boardgamemechanic (list of mechanics)  
-
-boardgamecategory   
-
-boardgamehonor  
+**Questions we hope to answer with the data**
+   - What genre do people tend to enjoy the most? 
+   - Which year released the most top-rated board games?
+   - Based on your Boardgame preference, what boardgame will you play next? 
+   - Can we recommend board games to the user’s from our data set? 
+   - After applying machine learning to categorize these games, does that match up with the genre field? 
+   - **FINAL QUESTION DRAFT:** How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned? 
+   - Based on ONE choice/input from the user, what recommendations from pre-existing and machine learning labels can be made? 
 
 
-Columns with meaningful information from boardgames1.csv:  
+## Communication Protocols (GitHub)
+   - At least one branch for each team member & each team member has at least 4 commits for segement 1. 
+   - The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline.
 
-Name = name  
+## Machine Learning Model
+Present a provisional machine learning model 
+   - Takes in data from the provisional database
+   - Outputs label(s) for input data
+   -   - Decision Tree: determine the importance of each column
 
-Year Published = yearpublished  
+## Database
+   - Sample data that mimics the expected final database structure or schema
+   - Draft machine learning module is connected to the provisional database
 
-Min Players = minplayers  
-
-Max Players = maxplayers  
-
-Play Time = maxplaytime  
-
-Min Age = minage  
-
-Users Rated = usersrated  
-
-Rating Average = average  
- 
-BGG Rank = Overall rank on the BGG website  
-
-Complexity Average = avgweight  
-
-Owned Users  
-
-Mechanics = boardgamemechanic  
-
-Domains = boardgamecategory  
+## Ideas
+   - Using some of the different mechanics (artists, player votes, user rating, designer, publisher, honors)
+   - Tables in pgAdmin, ERD linkage and schematic, to help with Database Mockup and to see coorelations and possible differences in clusters for Machine Learning
