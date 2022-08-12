@@ -4,7 +4,7 @@
 **Selected Topic** Boardgame
 
 **Reason for Selection**
--   - Can we recommend board games to the people's likes, demographics or history?
+-   - Can we recommend board games to the people based on  likes, demographics or history?
 
 **Description of the source data**
 
