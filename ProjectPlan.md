@@ -7,7 +7,7 @@ History of Board Games, Game Stats Exploration, & Game Recommendation based on U
 ### Steps needed:
   -	Data analysis – Jupyter Notebook?
     - Cleaning data – picking columns, creating new dataframe with only what we need/want
-    - Transforming data – performing machine learning to find new types of clustes, creating second data frame to join with first
+    - Transforming data – performing machine learning to find new types of clusters, creating second data frame to join with first
   - Figuring out what question(s) to ask users 
     - OPTIONS:
     
@@ -24,8 +24,7 @@ History of Board Games, Game Stats Exploration, & Game Recommendation based on U
       Could we then choose our recommendations from a more sophisticated cluster?? Would it be more interesting to the user?
       ***
       COMBO: One suggestion was to ask something and provide the two different results, one from a straight query and one from a cluster query based on our machine learning results (provided they are different somehow (?)
-      
-  - Some sort of machine-learning step -- need to investigate data for interesting patterns   
+       
   - Putting the data into a database and building the queries (OR advanced tableau?)
   - Building a dashboard that showcases:
       -	Info about our data that we found interesting (maybe some history even)
