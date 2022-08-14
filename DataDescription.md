@@ -2,73 +2,73 @@
 
 Columns with meaningful information from boardgames1.csv:  
 
-name  
+ - name  
 
-yearpublished  
+ - yearpublished  
 
-minplayers   
+ - minplayers   
 
-maxplayers  
+ - maxplayers  
 
-minplaytime  
+ - minplaytime  
 
-maxplaytime  
+ - maxplaytime  
 
-minage  
+ - minage  
 
-usersrated (Number of users who have rated the game)  
+ - usersrated (Number of users who have rated the game)  
 
-average (Average overall rating from users out of 10)  
+ - average (Average overall rating from users out of 10)  
 
-baverage (BoardGameGeek uses a weighting system to it's user ratings to prevent games with very few ratings from having a super high or super low average before a lot of ratings have come in. This rating is the BGG adjusted rating, and might not be something we want to use.)  
+ - baverage (BoardGameGeek uses a weighting system to it's user ratings to prevent games with very few ratings from having a super high or super low average before a lot of ratings have come in. This rating is the BGG adjusted rating, and might not be something we want to use.)  
 
-avgweight (average user-submitted measure of "weight", out of 5)  
+ - avgweight (average user-submitted measure of "weight", out of 5)  
 
-numweights (Number of users who have submitted a weight score for the game)  
+ - numweights (Number of users who have submitted a weight score for the game)  
 
-numgeeklists (A "geeklist" is a list of games that users can submit, often with comments. Could be a measure of "buzz" or whatever, likely not too useful.)  
+ - numgeeklists (A "geeklist" is a list of games that users can submit, often with comments. Could be a measure of "buzz" or whatever, likely not too useful.)  
 
-numtrading (number of users who have this game available for trade with other users.)  
+ - numtrading (number of users who have this game available for trade with other users.)  
 
-numwanting (number of users who have indicated that they want this game.)  
+ - numwanting (number of users who have indicated that they want this game.)  
 
-numcomments  
+ - numcomments  
 
-numplays (Users can log when they've played a game. This is the total number of plays logged by users)  
+ - numplays (Users can log when they've played a game. This is the total number of plays logged by users)  
 
-boardgamehonor_cnt (Number of honors the game was received)  
+ - boardgamehonor_cnt (Number of honors the game was received)  
 
-boardgamemechanic (list of mechanics)  
+ - boardgamemechanic (list of mechanics)  
 
-boardgamecategory   
+ - boardgamecategory   
 
-boardgamehonor  
+ - boardgamehonor  
 
 
 Columns with meaningful information from boardgames1.csv:  
 
-Name = name  
+ - Name = name  
 
-Year Published = yearpublished  
+ - Year Published = yearpublished  
 
-Min Players = minplayers  
+ - Min Players = minplayers  
 
-Max Players = maxplayers  
+ - Max Players = maxplayers  
 
-Play Time = maxplaytime  
+ - Play Time = maxplaytime  
 
-Min Age = minage  
+ - Min Age = minage  
 
-Users Rated = usersrated  
+ - Users Rated = usersrated  
 
-Rating Average = average  
+ - Rating Average = average  
  
-BGG Rank = Overall rank on the BGG website  
+ - BGG Rank = Overall rank on the BGG website  
 
-Complexity Average = avgweight  
+ - Complexity Average = avgweight  
 
-Owned Users  
+ - Owned Users  
 
-Mechanics = boardgamemechanic  
+ - Mechanics = boardgamemechanic  
 
-Domains = boardgamecategory  
+ - Domains = boardgamecategory  
