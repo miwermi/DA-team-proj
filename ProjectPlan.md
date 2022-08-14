@@ -33,4 +33,7 @@ History of Board Games, Game Stats Exploration, & Game Recommendation based on U
       -	Results
 
 
+### Personas?
+There are four established game personas per Bartle (https://en.wikipedia.org/wiki/Bartle_taxonomy_of_player_types) Perhaps there is some way to utilize these classifications, or to align our game styles with these?  
+
 
