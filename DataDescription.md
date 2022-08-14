@@ -45,7 +45,7 @@ Columns with meaningful information from boardgames1.csv:
  - boardgamehonor  
 
 
-Columns with meaningful information from boardgames1.csv:  
+Columns with meaningful information from bgg_dataset.csv:  
 
  - Name = name  
 
