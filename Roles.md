@@ -4,23 +4,22 @@
 |------------------|---------|-----------|------------|
 | Abe | &#9651; ||
 | Courtney | &#9651; ||
-| Masie |||
+| Masie | &#9737; ||
 | Michelle | &#9744; ||
-| Rachel |||
+| Rachel | X ||
 
 
 KEY:
 
 
 &#9744; - Square: Responsible for the Repository
-&#9947; &#9651; - Triangles: Mockup of the Machine Learning Model
-&#9737; - Circle: Create a mockup of the database with a set of sample data (?_
-X - X: Decides which technologies will be used
+&#9947; &#9651; - Triangles: Data Cleaners & Mockup of the Machine Learning Model
+&#9737; - Circle:  Rubric Compliance
+X - X: Final Decision on Which Technologies 
 
 
 &#9872; - We surrender
 
-Other roles: Presentation, Dashboard Design, Rubric Compliance
-
+Other roles: Presentation, Dashboard Design,
 
 
