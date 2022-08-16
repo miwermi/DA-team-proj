@@ -6,7 +6,7 @@
 | Courtney | &#9651; ||
 | Masie | &#9737; ||
 | Michelle | &#9744; ||
-| Rachel | X ||
+| Rachel | &#9675; ||
 
 
 KEY:
