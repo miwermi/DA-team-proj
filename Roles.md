@@ -2,10 +2,10 @@
 
 | Team Member Name | Primary | Secondary | Secondary2 |
 |------------------|---------|-----------|------------|
-| Abe | &#9947; ||
-| Courtney | &#9651; ? ||
+| Abe | &#9651; ||
+| Courtney | &#9651; ||
 | Masie |||
-| Michelle | &#9744; ? ||
+| Michelle | &#9744; ||
 | Rachel |||
 
 
