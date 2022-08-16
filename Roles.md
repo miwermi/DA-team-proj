@@ -18,7 +18,7 @@ KEY:
 
   &#9675; - Circle:  Rubric Compliance & README 
 
-  X - X: Final Decision on Which Technologies We Use
+  X - X: Final Decision on Technologies Used
 
 <br /><br />
 
