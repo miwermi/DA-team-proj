@@ -20,7 +20,7 @@ KEY:
 
   X - X: Final Decision on Which Technologies We Use
 
-<br />br />
+<br /><br />
 
 &#9872; - We surrender
 
