@@ -12,13 +12,13 @@
 KEY:
 
 
-&#9744; - Square: Responsible for the Repository
+  &#9744; - Square: Responsible for the Repository
 
-&#9651; - Triangles: Data Cleaners & Mockup of the Machine Learning Model
+  &#9651; - Triangles: Data Cleaners & Mockup of the Machine Learning Model
 
-&#9675; - Circle:  Rubric Compliance
+  &#9675; - Circle:  Rubric Compliance
 
-X - X: Final Decision on Which Technologies 
+  X - X: Final Decision on Which Technologies We Use
 
 
 
