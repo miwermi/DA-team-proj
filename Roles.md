@@ -14,7 +14,7 @@ KEY:
 
   &#9744; - Square: Responsible for the Repository
 
-  &#9651; - Triangles: Data Cleaners & Mockup of the Machine Learning Model
+  &#9651; - Triangles: Data Cleaning & Mockup of the Machine Learning Model
 
   &#9675; - Circle:  Rubric Compliance & README 
 
