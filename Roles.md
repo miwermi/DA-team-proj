@@ -16,7 +16,7 @@ KEY:
 
   &#9651; - Triangles: Data Cleaning & Mockup of the Machine Learning Model
 
-  &#9675; - Circle:  Rubric Compliance & README 
+  &#9675; - Circle:  Rubric Compliance & README Final Authorization
 
   X - X: Final Decision on Technologies Used
 
