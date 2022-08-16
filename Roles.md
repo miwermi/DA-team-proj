@@ -21,6 +21,7 @@ KEY:
 X - X: Final Decision on Which Technologies 
 
 
+
 &#9872; - We surrender
 
 (Other roles: Presentation, Dashboard Design,)
