@@ -24,6 +24,6 @@ KEY:
 
 &#9872; - We surrender
 
-(Other roles: Presentation, Dashboard Design,)
+(Other roles: Presentation, Dashboard Design, Asset Collection?)
 
 
