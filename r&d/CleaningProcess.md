@@ -13,10 +13,10 @@ Columns Initially Dropped:
        'podcast', 'label', 'boardgamedesigner_cnt', 'boardgameartist_cnt',
        'boardgamepublisher_cnt', 'boardgamecategory_cnt',
        'boardgamemechanic_cnt', 'boardgameexpansion_cnt',
-       'boardgameversion_cnt', 'boardgamefamily_cnt', 'boardgamedesigner',
+        'boardgamefamily_cnt', 'boardgamedesigner',
        'boardgameartist', 'boardgamehonor','boardgameversion', 
        'boardgameexpansion', 'boardgamefamily', 'description', 'gamelink'
        
 ## Columns Binned
-Player numbers
-Player playtime
+Player numbers each number should be in its own bin up to 8 or so
+Player playtime should be in 30 minute increments. 0-30, 31-60, 61-90, etc. up to 240+
