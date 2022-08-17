@@ -39,7 +39,7 @@ Linear Regression analysis in R to see if the simpler model works better than K-
       ~join tables together to get information/analysis desired
       ~create a single .csv for the machine learning model
    - Draft machine learning module is connected to the provisional database
-      ~connect the model to the .csv file exported from SQL joins. Then model splits the data from the .csv to training and testing 
+      ~connect the model to the database using a connection string for Postgres (see link: https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING)
       
       Mock Database ERD Image:
       ![image](https://user-images.githubusercontent.com/102757676/185007642-684025a9-e72f-40ef-b5fc-a0d73cd95bdd.png)
