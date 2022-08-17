@@ -24,6 +24,15 @@
    - At least one branch for each team member & each team member has at least 4 commits for segement 1. 
    - The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline.
    ~During Zoom meetings >> I would like for each of us to be heard and be able to contribute without getting talked over. I would like for us to go around the room, one at a time and share our thoughts and ideas. While one person is talking, everyone else is muted. Then only when the person talking says "pass" and mutes themselves, the next person can talk. We would establish an order of who talks next so it is not dominated by one person and so everyone can talk equally. If a person has nothing to say when it is their turn, they can say "pass" and it goes to the next person. Limit talk time to 2 minutes. Order is Abe, Courtney, Masie, Michelle, then Rachel.
+   
+## Team Roles
+| Team Member Name | Role (S1) | Description      |
+|------------------|---------|--------------------|
+| Abe | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
+| Courtney | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
+| Masie | &#9675; | Circle: Rubric Compliance & README Composition |
+| Michelle | &#9744; | Square: Responsible for the Repository 
+| Rachel | X | X: Final Decision on Technologies Used |
 
 ## Machine Learning Model
 Present a provisional machine learning model >> we decided on K-Means unsupervised ML
