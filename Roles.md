@@ -1,6 +1,6 @@
 # Project Roles
 
-| Team Member Name | Primary | Secondary | Secondary2 |
+| Team Member Name | Primary | Secondary | Tertiary |
 |------------------|---------|-----------|------------|
 | Abe | &#9651; ||
 | Courtney | &#9651; ||
