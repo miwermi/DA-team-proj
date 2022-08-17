@@ -5,8 +5,11 @@ https://boardgamegeek.com/
 https://www.kaggle.com/datasets/extralime/20000-boardgames-dataset
 
 ## Data Cleaning:
-File initially sorted in excel.  text to columns to break up arrays. Used "find/replace" to drop quotes, arrays, and fill in blank cells with NaN.
-Columns Initially Dropped:
+- File initially sorted in excel.  
+- text to columns to break up arrays. 
+- Used "find/replace" to drop quotes, arrays, and fill in blank cells with NaN.
+
+- Columns Initially Dropped:
       'minage', 'sortindex', 'min_community','max_community', 'totalvotes', 'playerage', 'languagedependence',
        'stddev', 'numweights', 'numgeeklists', 'numtrading', 'numwanting', 'numcomments',
        'numplays', 'numplays_month', 'news', 'blogs', 'weblink',
