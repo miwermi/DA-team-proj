@@ -48,6 +48,3 @@ Linear Regression analysis in R to see if the simpler model works better than K-
 - Bartle's Personas for game players >> https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types
 - Add this in as a comparison with our analysis. Taking a look from a psychological perspective and comparing it to our data analysis section
 
-## Ideas
-   - Using some of the different mechanics (artists, player votes, user rating, designer, publisher, honors)
-   - Tables in pgAdmin, ERD linkage and schematic, to help with Database Mockup and to see coorelations and possible differences in clusters for Machine Learning
