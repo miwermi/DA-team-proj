@@ -33,8 +33,8 @@ Our goal for this project is to use K-Means unsupervised machine learning. We pl
 ## Database
 For our sample data, as well as for our final database, we want to separate tables of pertinent information from cleaned data. Then we will join tables together to get the information/analysis desired to create a single .csv for the machine learning model. Our plan is to connect the model to the database using a connection string for [Postgres](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING).
       
-      Mock Database ERD Image:
-      ![image](https://user-images.githubusercontent.com/102757676/185007642-684025a9-e72f-40ef-b5fc-a0d73cd95bdd.png)
+   Mock Database ERD Image:
+   ![image](https://user-images.githubusercontent.com/102757676/185007642-684025a9-e72f-40ef-b5fc-a0d73cd95bdd.png)
 
       
 ## Dashboard
