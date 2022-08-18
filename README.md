@@ -12,6 +12,8 @@ Some questions we are asking include, yet are not limited to the following:
 For the data we chose to use for our project, we collected source data that came from [boardgamegeek]( https://boardgamegeek.com/wiki/page/BGG_XML_API) and [Kaggle]( https://www.kaggle.com/datasets/extralime/20000-boardgames-dataset). The databases of board games are vast with their descriptions, rules, requirements for play, time to play, number of players, etc. A more in-depth description can be found in our [r&d]( https://github.com/miwermi/DA-team-proj/tree/main/r%26d) folder under DataDescription. You can find our original sourced and cleaned databases in our [resources folder](https://github.com/miwermi/DA-team-proj/tree/main/resources).
    
 ## Team Roles
+The table below is a visualization of the team roles we have initially agreed upon. These roles help us to delegate responsibilities with the understanding that these are ever-changing and collaborative.
+
 | Team Member Name | Role (S1) | Description      |
 |------------------|---------|--------------------|
 | Abe | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
