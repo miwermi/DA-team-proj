@@ -10,9 +10,6 @@ Some questions we are asking include, yet are not limited to the following:
 -	How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned?
 
 For the data we chose to use for our project, we collected source data that came from [boardgamegeek]( https://boardgamegeek.com/wiki/page/BGG_XML_API) and [Kaggle]( https://www.kaggle.com/datasets/extralime/20000-boardgames-dataset). The databases of board games are vast with their descriptions, rules, requirements for play, time to play, number of players, etc. A more in-depth description can be found in our [r&d]( https://github.com/miwermi/DA-team-proj/tree/main/r%26d) folder under DataDescription. You can find our original sourced and cleaned databases in our [resources folder](https://github.com/miwermi/DA-team-proj/tree/main/resources).
-
-## Communication Protocols 
-   ~During Zoom meetings >> I would like for each of us to be heard and be able to contribute without getting talked over. I would like for us to go around the room, one at a time and share our thoughts and ideas. While one person is talking, everyone else is muted. Then only when the person talking says "pass" and mutes themselves, the next person can talk. We would establish an order of who talks next so it is not dominated by one person and so everyone can talk equally. If a person has nothing to say when it is their turn, they can say "pass" and it goes to the next person. Limit talk time to 2 minutes. Order is Abe, Courtney, Masie, Michelle, then Rachel.
    
 ## Team Roles
 | Team Member Name | Role (S1) | Description      |
@@ -22,7 +19,6 @@ For the data we chose to use for our project, we collected source data that came
 | Masie | &#9675; | Circle: Rubric Compliance & README Composition |
 | Michelle | &#9744; | Square: Responsible for the Repository 
 | Rachel | X | X: Final Decision on Technologies Used |
-
 
 ## Communication Protocols
 As a group we communicate through Zoom, Slack and even our shared GitHub repository. During our meetings on Zoom, we ensure all can share and be heard we each allow the others a chance to present ideas while others stay muted. We found that cycling alphabetically and using the “Raise Hand” feature to be helpful.  
