@@ -25,12 +25,10 @@ For the data we chose to use for our project, we collected source data that came
 | Rachel | X | X: Final Decision on Technologies Used |
 
 ## Machine Learning Model
-Present a provisional machine learning model >> we decided on K-Means unsupervised ML
-   - Takes in data from the provisional database >> 
-   - Outputs label(s) for input data >> what are these? Do we need to pick categories for the output labels?
-   -   - Decision Tree: determine the importance of each column
-   ~ PCA to reduce features
-Linear Regression analysis in R to see if the simpler model works better than K-Means
+Our goal for this project is to use K-Means unsupervised machine learning. We plan to use PCA to reduce the number of features, while also using Linear Regression analysis in R to see if the simpler model works better than K-Means. You will find our provisional Machine Learning in the file, [Machine_Learning.ipynb]( https://github.com/miwermi/DA-team-proj/blob/main/Machine_Learning.ipynb).
+
+•	Outputs label(s) for input data >> what are these? Do we need to pick categories for the output labels?
+
 
 ## Database
    - Sample data that mimics the expected final database structure or schema.
