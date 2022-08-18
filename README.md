@@ -10,11 +10,9 @@ Some questions we are asking include, yet are not limited to the following:
 -	After applying machine learning to categorize these games, does that match up with the genre field already established?
 -	How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned?
 
-For the data we chose to use for our project, we collected source data that came from [boardgamegeek]( https://boardgamegeek.com/wiki/page/BGG_XML_API) and [Kaggle]( https://www.kaggle.com/datasets/extralime/20000-boardgames-dataset). The databases of board games are vast with their descriptions, rules, requirements for play, time to play, number of players, etc. A more in-depth description can be found in our [r&d]( https://github.com/miwermi/DA-team-proj/tree/main/r%26d) folder under DataDescription. You can find our original sourced and cleaned databases in our resources folder.
+For the data we chose to use for our project, we collected source data that came from [boardgamegeek]( https://boardgamegeek.com/wiki/page/BGG_XML_API) and [Kaggle]( https://www.kaggle.com/datasets/extralime/20000-boardgames-dataset). The databases of board games are vast with their descriptions, rules, requirements for play, time to play, number of players, etc. A more in-depth description can be found in our [r&d]( https://github.com/miwermi/DA-team-proj/tree/main/r%26d) folder under DataDescription. You can find our original sourced and cleaned databases in our [resources folder](https://github.com/miwermi/DA-team-proj/tree/main/resources).
 
-## Communication Protocols (GitHub and Zoom)
-   - At least one branch for each team member & each team member has at least 4 commits for segement 1. 
-   - The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline.
+## Communication Protocols 
    ~During Zoom meetings >> I would like for each of us to be heard and be able to contribute without getting talked over. I would like for us to go around the room, one at a time and share our thoughts and ideas. While one person is talking, everyone else is muted. Then only when the person talking says "pass" and mutes themselves, the next person can talk. We would establish an order of who talks next so it is not dominated by one person and so everyone can talk equally. If a person has nothing to say when it is their turn, they can say "pass" and it goes to the next person. Limit talk time to 2 minutes. Order is Abe, Courtney, Masie, Michelle, then Rachel.
    
 ## Team Roles
