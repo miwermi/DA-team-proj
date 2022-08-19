@@ -29,10 +29,14 @@ Lastly, within our project repository, we all have created our own branches to t
 | Rachel | X | X: Final Decision on Technologies Used |
 
 ## Machine Learning Model
-Our goal for this project is to use K-Means unsupervised machine learning. We plan to use PCA to reduce the number of features, while also using Linear Regression analysis in R to see if the simpler model works better than K-Means. You will find our provisional Machine Learning in the file, [Machine_Learning.ipynb]( https://github.com/miwermi/DA-team-proj/blob/main/Machine_Learning.ipynb).
+Our goal for this project is to use K-Means unsupervised machine learning.  We plan on starting with Linear Regression, and exploring Multi-Linear Regression analysis in R.  We are also exploring other analyses, possibly a 2 Way ANOVA looking at game players, and game play time agains the category and meachanics data.  
+Because there are so many features in both the category and mechanics data, we plan to use PCA to reduce these number of features. We are also interested in cluster using Kmeans and the elbow method to see if some of the data are grouped differently than they are currently labelled by BoardGameGeeks. You will find our provisional Machine Learning in the file, [Machine_Learning.ipynb]( https://github.com/miwermi/DA-team-proj/blob/main/Machine_Learning.ipynb).
 
-•	Outputs label(s) for input data >> what are these? Do we need to pick categories for the output labels?
+•	Outputs label(s) for input data >> Currently we are looking to input game play time, player min/max, 'best' game by votes both raw and weighted, complexity, site views, category, and game mechanics. 
 
+A couple possible hypotheses:  Games with more people, longer play times, higher compexity should be clustered together and include labels like "civilization", "building", "campaigns".
+
+Are there games with fewer people, with shorter play times that also cluster together under categories or mechanics?  Any outliers?
 
 ## Database
 For our sample data, as well as for our final database, we want to separate tables of pertinent information from cleaned data. Then we will join tables together to get the information/analysis desired to create a single .csv for the machine learning model. Our plan is to connect the model to the database using a connection string for [Postgres](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING).
