@@ -35,7 +35,7 @@ Our goal for this project is to use K-Means unsupervised machine learning. We pl
 
 
 ## Database
-For our sample data, as well as for our final database, we created separate tables of pertinent information from cleaned data. Then we joied the tables together to get the information we needed for our machine learning model. The file [createtables.sql(https://github.com/miwermi/DA-team-proj/blob/main/sql/createtables.sql) in the SQL folder, has the code used to create the original four tables in the database. These tables were then joined together to create the [bg_fulldata]( https://github.com/miwermi/DA-team-proj/blob/main/sql/bg_fulldata.csv) table. 
+For our sample data, as well as for our final database, we created separate tables of pertinent information from cleaned data. Then we joied the tables together to get the information we needed for our machine learning model. The file [createtables.sql](https://github.com/miwermi/DA-team-proj/blob/main/sql/createtables.sql) in the SQL folder, has the code used to create the original four tables in the database. These tables were then joined together to create the [bg_fulldata]( https://github.com/miwermi/DA-team-proj/blob/main/sql/bg_fulldata.csv) table. 
 
 Saved in the file [queries.sql]( https://github.com/miwermi/DA-team-proj/blob/main/sql/queries.sql) you will find the code for joining the tables and creating this final bg_fulldata table. Additionally, the connection string code to connect PostgreSQL to the jupyter notebook is located in the file [database_connection.ipynb]( https://github.com/miwermi/DA-team-proj/blob/main/sql/database_connection.ipynb).  
 
