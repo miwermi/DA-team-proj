@@ -44,12 +44,12 @@ A couple possible hypotheses:  Games with more people, longer play times, higher
 Are there games with fewer people, with shorter play times that also cluster together under categories or mechanics?  Any outliers?
 
 ## Database
-For our sample data, as well as for our final database, we want to separate tables of pertinent information from cleaned data. Then we will join tables together to get the information/analysis desired to create a single .csv for the machine learning model. Our plan is to connect the model to the database using a connection string for [Postgres](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING).
-      
-   Mock Database ERD Image:
-   ![image](https://user-images.githubusercontent.com/102757676/185007642-684025a9-e72f-40ef-b5fc-a0d73cd95bdd.png)
+For our sample data, as well as for our final database, we separated tables of pertinent information from cleaned data. Then we joined tables together to get the data desired for the machine learning model. The file [createtables.sql](https://github.com/miwermi/DA-team-proj/blob/main/sql/createtables.sql) in the SQL folder, has the code used to create the original four tables in the database. These tables were then joined together to create the [bg_fulldata]( https://github.com/miwermi/DA-team-proj/blob/main/sql/bg_fulldata.csv) table. 
 
-      
+Saved in the file [queries.sql]( https://github.com/miwermi/DA-team-proj/blob/main/sql/queries.sql) you will find the code for joining the tables and creating this final bg_fulldata table. Additionally, the connection string code to connect PostgreSQL to the jupyter notebook is located in the file [database_connection.ipynb]( https://github.com/miwermi/DA-team-proj/blob/main/sql/database_connection.ipynb).  
+
+<img width="412" alt="ERD Image" src="https://user-images.githubusercontent.com/102122063/187095802-ba01f4b6-9950-4ce8-82fa-9803c108f59b.png">
+    
 ## Dashboard
 As a team, we’ve begun to discuss ideas for our dashboard that will be key in presenting our findings and telling our story. Below is an idea we wish to explore. 
 - Tableau dashboard, visualizations and storys. 
