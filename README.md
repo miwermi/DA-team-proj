@@ -1,9 +1,10 @@
 # Overview of Project
 
 ## Presentation: 
-For our final project, we agreed to dive into the fascinating world of Boardgames! Many enjoy the pastime of playing board games, and the reason for selecting this topic is to discover different ways of classifying board games based on a variety of characteristics in hopes of being able to recommend games people would enjoy. Along with recommendations, we plan to create a visual story of the games with descriptions, rules, mechanics, requirements for play, time to play, number of players, etc. This visual landscape can be explored by those eager to find new games and others who want to see how their favorites may be categorized and compared to other games.
-
+For our final project, we agreed to dive into the fascinating world of Boardgames! 
+Even with digital technology, people still like to gather in a room and interact while sharing an imaginative experience together. As one team member pointed out, even in an apocalyptic universe, people would still gather to play these types of games. With one content expert on the team, and the rest of us being novices, we wondered if there were clusters of games – and about the possibility of making useful recommendations in an interactive dashboard.Along with recommendations, we plan to create a visual story of the games with descriptions, rules, mechanics, requirements for play, time to play, number of players, etc. This visual landscape can be explored by those eager to find new games and others who want to see how their favorites may be categorized and compared to other games.
 Some questions we are asking include, yet are not limited to the following:
+
 -	What genre do people tend to enjoy the most?
 -	Which year released the most top-rated board games?
 -	Can we recommend board games to the users based on boardgame characteristics?
@@ -11,6 +12,10 @@ Some questions we are asking include, yet are not limited to the following:
 -	How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned?
 
 For the data we chose to use for our project, we collected source data that came from [boardgamegeek]( https://boardgamegeek.com/wiki/page/BGG_XML_API) and [Kaggle]( https://www.kaggle.com/datasets/extralime/20000-boardgames-dataset). The databases of board games are vast with their descriptions, rules, requirements for play, time to play, number of players, etc. A more in-depth description can be found in our [r&d]( https://github.com/miwermi/DA-team-proj/tree/main/r%26d) folder under DataDescription. You can find our original sourced and cleaned databases in our [resources folder](https://github.com/miwermi/DA-team-proj/tree/main/resources).
+
+**Description of the data exploration phase of the project**
+**Description of the analysis phase of the project**
+
 
 ## Communication Protocols 
 As a group we communicate through Zoom, Slack and even our shared GitHub repository. During our meetings on Zoom, we ensure all can share and be heard we each allow the others a chance to present ideas while others stay muted. We found that cycling alphabetically and using the “Raise Hand” feature to be helpful.  
@@ -27,6 +32,8 @@ Lastly, within our project repository, we all have created our own branches to t
 | Masie | &#9675; | Circle: Rubric Compliance & README Composition |
 | Michelle | &#9744; | Square: Responsible for the Repository 
 | Rachel | X | X: Final Decision on Technologies Used |
+
+**Outline of the project (this may include images, but should be easy to follow and digest)**
 
 ## Machine Learning Model
 Our goal for this project is to use K-Means unsupervised machine learning. We plan to use PCA to reduce the number of features, while also using Linear Regression analysis in R to see if the simpler model works better than K-Means. You will find our provisional Machine Learning in the file, [Machine_Learning.ipynb]( https://github.com/miwermi/DA-team-proj/blob/main/Machine_Learning.ipynb).
