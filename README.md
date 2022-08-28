@@ -1,54 +1,53 @@
 # Overview of Project
 
 ## Presentation: 
-**Selected Topic** Boardgames
+For our final project, we agreed to dive into the fascinating world of Boardgames! Many enjoy the pastime of playing board games, and the reason for selecting this topic is to discover different ways of classifying board games based on a variety of characteristics in hopes of being able to recommend games people would enjoy. Along with recommendations, we plan to create a visual story of the games with descriptions, rules, mechanics, requirements for play, time to play, number of players, etc. This visual landscape can be explored by those eager to find new games and others who want to see how their favorites may be categorized and compared to other games.
 
-**Reason for Selection**
-   - Can we recommend board games to the people based on  likes, demographics or history?
+Some questions we are asking include, yet are not limited to the following:
+-	What genre do people tend to enjoy the most?
+-	Which year released the most top-rated board games?
+-	Can we recommend board games to the users based on boardgame characteristics?
+-	After applying machine learning to categorize these games, does that match up with the genre field already established?
+-	How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned?
 
-**Description of the source data**
+For the data we chose to use for our project, we collected source data that came from [boardgamegeek]( https://boardgamegeek.com/wiki/page/BGG_XML_API) and [Kaggle]( https://www.kaggle.com/datasets/extralime/20000-boardgames-dataset). The databases of board games are vast with their descriptions, rules, requirements for play, time to play, number of players, etc. A more in-depth description can be found in our [r&d]( https://github.com/miwermi/DA-team-proj/tree/main/r%26d) folder under DataDescription. You can find our original sourced and cleaned databases in our [resources folder](https://github.com/miwermi/DA-team-proj/tree/main/resources).
 
-~ source data came from boardgamegeek and kaggle. It's a huge list of boardgames with their descriptions, rules, requirements for play, time to play, number of players, etc.
+## Communication Protocols 
+As a group we communicate through Zoom, Slack and even our shared GitHub repository. During our meetings on Zoom, we ensure all can share and be heard we each allow the others a chance to present ideas while others stay muted. We found that cycling alphabetically and using the “Raise Hand” feature to be helpful.  
 
-**Questions we hope to answer with the data**
-   - What genre do people tend to enjoy the most? 
-   - Which year released the most top-rated board games?
-   - Based on your Boardgame preference, what boardgame will you play next? 
-   - Can we recommend board games to the user’s from our data set? 
-   - After applying machine learning to categorize these games, does that match up with the genre field? 
-   - **FINAL QUESTION DRAFT:** How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned? 
-   - Based on ONE choice/input from the user, what recommendations from pre-existing and machine learning labels can be made? 
+Within Slack, we have a channel made specifically for our project, where we can chat, update progress, and share links, images, data, etc. We also created a channel for links to our data sources that allow them to be easily accessible. 
 
-
-## Communication Protocols (GitHub and Zoom)
-   - At least one branch for each team member & each team member has at least 4 commits for segement 1. 
-   - The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline.
-   ~During Zoom meetings >> I would like for each of us to be heard and be able to contribute without getting talked over. I would like for us to go around the room, one at a time and share our thoughts and ideas. While one person is talking, everyone else is muted. Then only when the person talking says "pass" and mutes themselves, the next person can talk. We would establish an order of who talks next so it is not dominated by one person and so everyone can talk equally. If a person has nothing to say when it is their turn, they can say "pass" and it goes to the next person. Limit talk time to 2 minutes. Order is Abe, Courtney, Masie, Michelle, then Rachel.
+Lastly, within our project repository, we all have created our own branches to that we can upload data, code, and resources before committing to the main branch. We’ve also found that simply communicating through Slack and Zoom when pushing directly into the main branch is acceptable. 
+   
+## Team Roles
+| Team Member Name | Role (S1) | Description      |
+|------------------|---------|--------------------|
+| Abe | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
+| Courtney | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
+| Masie | &#9675; | Circle: Rubric Compliance & README Composition |
+| Michelle | &#9744; | Square: Responsible for the Repository 
+| Rachel | X | X: Final Decision on Technologies Used |
 
 ## Machine Learning Model
-Present a provisional machine learning model >> we decided on K-Means unsupervised ML
-   - Takes in data from the provisional database >> 
-   - Outputs label(s) for input data >> what are these? Do we need to pick categories for the output labels?
-   -   - Decision Tree: determine the importance of each column
-   ~ PCA to reduce features
-Linear Regression analysis in R to see if the simpler model works better than K-Means
+Our goal for this project is to use K-Means unsupervised machine learning.  We plan on starting with Linear Regression, and exploring Multi-Linear Regression analysis in R.  We are also exploring other analyses, possibly a 2 Way ANOVA looking at game players, and game play time agains the category and meachanics data.  
+Because there are so many features in both the category and mechanics data, we plan to use PCA to reduce these number of features. We are also interested in cluster using Kmeans and the elbow method to see if some of the data are grouped differently than they are currently labelled by BoardGameGeeks. You will find our provisional Machine Learning in the file, [Machine_Learning.ipynb]( https://github.com/miwermi/DA-team-proj/blob/main/Machine_Learning.ipynb).
+
+•	Outputs label(s) for input data >> Currently we are looking to input game play time, player min/max, 'best' game by votes both raw and weighted, complexity, site views, category, and game mechanics. 
+
+A couple possible hypotheses:  Games with more people, longer play times, higher compexity should be clustered together and include labels like "civilization", "building", "campaigns".
+
+Are there games with fewer people, with shorter play times that also cluster together under categories or mechanics?  Any outliers?
 
 ## Database
-   - Sample data that mimics the expected final database structure or schema.
-      ~separate tables of pertinent information (what are the columns for each table?) from cleaned data
-      ~join tables together to get information/analysis desired
-      ~create a single .csv for the machine learning model
-   - Draft machine learning module is connected to the provisional database
-      ~connect the model to the .csv file exported from SQL joins. Then model splits the data from the .csv to training and testing 
+For our sample data, as well as for our final database, we want to separate tables of pertinent information from cleaned data. Then we will join tables together to get the information/analysis desired to create a single .csv for the machine learning model. Our plan is to connect the model to the database using a connection string for [Postgres](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING).
       
-      Mock Database ERD Image:
-      ![image](https://user-images.githubusercontent.com/102757676/185007642-684025a9-e72f-40ef-b5fc-a0d73cd95bdd.png)
+   Mock Database ERD Image:
+   ![image](https://user-images.githubusercontent.com/102757676/185007642-684025a9-e72f-40ef-b5fc-a0d73cd95bdd.png)
 
       
 ## Dashboard
-- Bartle's Personas for game players >> https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types
-- Add this in as a comparison with our analysis. Taking a look from a psychological perspective and comparing it to our data analysis section
+As a team, we’ve begun to discuss ideas for our dashboard that will be key in presenting our findings and telling our story. Below is an idea we wish to explore. 
+- Tableau dashboard, visualizations and storys. 
+-  [Bartle's Personas](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types) for game players. We would add this in as a comparison with our analysis. Looking from a psychological perspective and comparing it to our data analysis section.
 
-## Ideas
-   - Using some of the different mechanics (artists, player votes, user rating, designer, publisher, honors)
-   - Tables in pgAdmin, ERD linkage and schematic, to help with Database Mockup and to see coorelations and possible differences in clusters for Machine Learning
+
