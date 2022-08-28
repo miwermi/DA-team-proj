@@ -7,4 +7,26 @@ for column in columns:
         if mechanic not in mechanics:
             mechanics.append(mechanic)
             
- Afterwards, the dataframe was populated with a column for each mechanic 
+ The dataframe was populated with a column for each mechanic and the values in the column was populated with 0s using the following code:
+ 
+ zeroes = []
+for i in range(20000):
+    zeroes.append(0)
+
+for mechanic in mechanics:
+    df[mechanic] = zeroes
+
+newdf = df.copy()
+
+Then, the values in the dataframe cells were populated with 1s instead of 0s for the mechanics associated with each board game using the following code:
+
+for column in columns:
+    rowcount = 0
+    for item in newdf[column]:
+        for mechanic in mechanics:
+            if item == mechanic:
+                newdf.at[rowcount,mechanic] = 1
+        rowcount+=1
+        
+
+A K-Means model was used to categorize the games based on Principal Component Analysis. This allows the machine learning algorithm to categorize games in ways that a human may not think to do. The downside of this model is that the meaning of each principal component score is opaque, making the performance of the model difficult to evaluate quantitatively.
