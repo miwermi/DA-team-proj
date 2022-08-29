@@ -30,8 +30,8 @@ Lastly, within our project repository, we all have created our own branches to t
 | Abe | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
 | Courtney | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
 | Masie | &#9675; | Circle: Rubric Compliance & README Composition |
-| Michelle | &#9744; | Square: Responsible for the Repository 
-| Rachel | X | X: Final Decision on Technologies Used |
+| Michelle | &#9744; | Square: Responsible for the Repository, Dashboard Draft |
+| Rachel | X | X: Final Decision on Technologies Used, Database Connection |
 
 ## Machine Learning Model
 Our goal for this project is to use K-Means unsupervised machine learning.  We plan on starting with Linear Regression, and exploring Multi-Linear Regression analysis in R.  We are also exploring other analyses, possibly a 2 Way ANOVA looking at game players, and game play time agains the category and meachanics data.  
@@ -67,7 +67,10 @@ Saved in the file [queries.sql]( https://github.com/miwermi/DA-team-proj/blob/ma
     
 ## Dashboard
 As a team, we’ve begun to discuss ideas for our dashboard that will be key in presenting our findings and telling our story. Below is an idea we wish to explore. 
-- Tableau dashboard, visualizations and storys. 
--  [Bartle's Personas](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types) for game players. We would add this in as a comparison with our analysis. Looking from a psychological perspective and comparing it to our data analysis section.
 
-- [ ] Description of interactive element(s)
+<img width="412" alt="ERD Image" src="https://github.com/miwermi/DA-team-proj/blob/main/graphics/dashboard-draft.png">
+   
+- We are planning on creating a Tableau dashboard, for visualizations and storys.
+- Interative elements would be a sorting option for users and a dropdown selection tool.
+- We have also consdiered [Bartle's Personas](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types) added in as a comparison with our analysis, but this will depend on whether our data analysis lends itself to this. 
+
