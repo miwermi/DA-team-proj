@@ -16,6 +16,8 @@ For the data we chose to use for our project, we collected source data that came
 
 After cleaning data in Excel, data was analyzed in Python’s Jupyter Notebook, R & R Studio, and PostgreSQL in PG Admin 4. Our next step is to take the final dataset into Tableau to create visualizations of all we had discovered.
 
+### Presentation
+A first rough draft of our final presentation can be found at: https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing
 
 ### Communication Protocols 
 As a group we communicate through Zoom, Slack and even our shared GitHub repository. During our meetings on Zoom, we ensure all can share and be heard we each allow the others a chance to present ideas while others stay muted. We found that cycling alphabetically and using the “Raise Hand” feature to be helpful.  
@@ -30,8 +32,8 @@ Lastly, within our project repository, we all have created our own branches to t
 | Abe | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
 | Courtney | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
 | Masie | &#9675; | Circle: Rubric Compliance & README Composition |
-| Michelle | &#9744; | Square: Responsible for the Repository 
-| Rachel | X | X: Final Decision on Technologies Used |
+| Michelle | &#9744; | Square: Responsible for the Repository, Dashboard Draft |
+| Rachel | X | X: Final Decision on Technologies Used, Database Connection |
 
 ## Machine Learning Model
 Our goal for this project is to use K-Means unsupervised machine learning.  We plan on starting with Linear Regression, and exploring Multi-Linear Regression analysis in R.  We are also exploring other analyses, possibly a 2 Way ANOVA looking at game players, and game play time agains the category and meachanics data.  
@@ -66,8 +68,10 @@ Saved in the file [queries.sql]( https://github.com/miwermi/DA-team-proj/blob/ma
 <img width="412" alt="ERD Image" src="https://user-images.githubusercontent.com/102122063/187095802-ba01f4b6-9950-4ce8-82fa-9803c108f59b.png">
     
 ## Dashboard
-As a team, we’ve begun to discuss ideas for our dashboard that will be key in presenting our findings and telling our story. Below is an idea we wish to explore. 
-- Tableau dashboard, visualizations and storys. 
--  [Bartle's Personas](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types) for game players. We would add this in as a comparison with our analysis. Looking from a psychological perspective and comparing it to our data analysis section.
+As a team, we’ve begun to discuss ideas for our dashboard that will be key in presenting our findings and telling our story. 
 
-- [ ] Description of interactive element(s)
+<img width="412" alt="ERD Image" src="https://github.com/miwermi/DA-team-proj/blob/main/graphics/dashboard-draft.png">
+   
+- We are planning on creating a Tableau dashboard, for visualizations and storys.
+- Interative elements would be a sorting option for users and a dropdown selection tool.
+- We have also consdiered [Bartle's Personas](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types) added in as a comparison with our analysis, but this will depend on whether our data analysis lends itself to this. 
