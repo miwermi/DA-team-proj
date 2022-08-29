@@ -70,4 +70,4 @@ As a team, we’ve begun to discuss ideas for our dashboard that will be key in 
 - Tableau dashboard, visualizations and storys. 
 -  [Bartle's Personas](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types) for game players. We would add this in as a comparison with our analysis. Looking from a psychological perspective and comparing it to our data analysis section.
 
-
+- [ ] Description of interactive element(s)
