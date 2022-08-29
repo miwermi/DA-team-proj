@@ -53,6 +53,11 @@ for column in columns: rowcount = 0 for item in newdf[column]: for mechanic in m
 ```
 A K-Means model was used to categorize the games based on Principal Component Analysis. This allows the machine learning algorithm to categorize games in ways that a human may not think to do. The downside of this model is that the meaning of each principal component score is opaque, making the performance of the model difficult to evaluate quantitatively. You can find our machine learning first pass [here](https://github.com/miwermi/DA-team-proj/blob/main/machine_learning_first_pass.ipynb).
 
+*Example of the 3D-Scatter with the PCA data and the clusters*
+
+<img width="554" alt="image (1)" src="https://user-images.githubusercontent.com/102122063/187102553-931d0f40-3943-445c-a863-35ce906b5580.png">
+
+
 ## Database
 For our sample data, as well as for our final database, we separated tables of pertinent information from cleaned data. Then we joined tables together to get the data desired for the machine learning model. The file [createtables.sql](https://github.com/miwermi/DA-team-proj/blob/main/sql/createtables.sql) in the SQL folder, has the code used to create the original four tables in the database. These tables were then joined together to create the [bg_fulldata]( https://github.com/miwermi/DA-team-proj/blob/main/sql/bg_fulldata.csv) table. 
 
