@@ -16,6 +16,8 @@ For the data we chose to use for our project, we collected source data that came
 
 After cleaning data in Excel, data was analyzed in Python’s Jupyter Notebook, R & R Studio, and PostgreSQL in PG Admin 4. Our next step is to take the final dataset into Tableau to create visualizations of all we had discovered.
 
+### Presentation Draft
+A draft of our final presentation can be found at: https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing
 
 ### Communication Protocols 
 As a group we communicate through Zoom, Slack and even our shared GitHub repository. During our meetings on Zoom, we ensure all can share and be heard we each allow the others a chance to present ideas while others stay muted. We found that cycling alphabetically and using the “Raise Hand” feature to be helpful.  
@@ -73,4 +75,3 @@ As a team, we’ve begun to discuss ideas for our dashboard that will be key in 
 - We are planning on creating a Tableau dashboard, for visualizations and storys.
 - Interative elements would be a sorting option for users and a dropdown selection tool.
 - We have also consdiered [Bartle's Personas](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types) added in as a comparison with our analysis, but this will depend on whether our data analysis lends itself to this. 
-
