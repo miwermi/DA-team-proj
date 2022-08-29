@@ -66,7 +66,7 @@ Saved in the file [queries.sql]( https://github.com/miwermi/DA-team-proj/blob/ma
 <img width="412" alt="ERD Image" src="https://user-images.githubusercontent.com/102122063/187095802-ba01f4b6-9950-4ce8-82fa-9803c108f59b.png">
     
 ## Dashboard
-As a team, we’ve begun to discuss ideas for our dashboard that will be key in presenting our findings and telling our story. Below is an idea we wish to explore. 
+As a team, we’ve begun to discuss ideas for our dashboard that will be key in presenting our findings and telling our story. 
 
 <img width="412" alt="ERD Image" src="https://github.com/miwermi/DA-team-proj/blob/main/graphics/dashboard-draft.png">
    
