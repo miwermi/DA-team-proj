@@ -43,6 +43,12 @@ Currently we are looking to input game play time, player min/max, 'best' game by
 - A couple possible hypotheses:  Games with more people, longer play times, higher compexity should be clustered together and include labels like "civilization", "building", "campaigns". Are there games with fewer people, with shorter play times that also cluster together under categories or mechanics?  Any outliers?
 
 ### Preliminary Preprocessing
+The raw data was in .csv format, was opened in Excel for initial cleaning.  Deleted columns that we determined were irrelevant to our analysis (sort index: the games already have an object id, min age and player age, language dependence; podcast, blog, website: these had no bearing, board game honors (with out honors drops approx 1600 games), board game artists, publishers, game creators:  nearly all of these categories dropped too many values as well as create a skewed dataset.
+
+The next transform was to clean the array of strings formatted in the raw data, Excel was functionally worthwile here with the find replace method, then further separating the metrics of mechanics and category with the 'text to columns' function.  Then used Excel to replace all blank cells with na.
+
+For R analysis, bucketed games with max players to 20+, changed min and max playtime to minutes,
+
 The preliminary data preprocessing for the machine learning analysis was done by splitting the board game mechanics column into 6 columns within Excel. Then, a list of all the mechanics was generated in Jupyter Notebook using the following code:
 ```
 mechanics = [] columns = ['boardgamemechanic1', 'boardgamemechanic2', 'boardgamemechanic3', 'boardgamemechanic4', 'boardgamemechanic5', 'boardgamemechanic6'] for column in columns: for mechanic in df[column]: if mechanic not in mechanics: mechanics.append(mechanic)
