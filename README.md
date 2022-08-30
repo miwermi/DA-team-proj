@@ -46,8 +46,11 @@ Currently we are looking to input game play time, player min/max, 'best' game by
 The raw data was in .csv format, was opened in Excel for initial cleaning.  Deleted columns that we determined were irrelevant to our analysis (sort index: the games already have an object id, min age and player age, language dependence; podcast, blog, website: these had no bearing, board game honors (with out honors drops approx 1600 games), board game artists, publishers, game creators:  nearly all of these categories dropped too many values as well as create a skewed dataset.
 
 The next transform was to clean the array of strings formatted in the raw data, Excel was functionally worthwile here with the find replace method, then further separating the metrics of mechanics and category with the 'text to columns' function.  Then used Excel to replace all blank cells with na.
+![Mech_table](https://user-images.githubusercontent.com/102183530/187327394-62d6c3bc-3893-4d92-8d4b-bf0c3694636f.png)
 
-For R analysis, bucketed games with max players to 20+, changed min and max playtime to minutes,
+For R analysis, bucketed games with max players to 20+, changed min and max playtime to minutes,initially brought entire raw data into jupyter notebook to drop colomns and do a generalizations with normalizing data.
+![datacl2](https://user-images.githubusercontent.com/102183530/187327618-add74d87-d9c1-4b3d-a9d5-1d63f8a20a48.png)
+![datacl3](https://user-images.githubusercontent.com/102183530/187327625-49950472-aebc-4e84-ad21-1d581bc68a03.png)
 
 The preliminary data preprocessing for the machine learning analysis was done by splitting the board game mechanics column into 6 columns within Excel. Then, a list of all the mechanics was generated in Jupyter Notebook using the following code:
 ```
