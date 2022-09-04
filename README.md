@@ -65,7 +65,7 @@ As a team, we’ve begun to discuss ideas for our dashboard that will be key in 
 
 <img width="412" alt="ERD Image" src="https://github.com/miwermi/DA-team-proj/blob/main/graphics/dashboard-draft.png">
    
-We have begun to develop our Tableau [dashboard](https://public.tableau.com/app/profile/butler.bootcamp.2022/viz/BoardgameDashboard/Dashboard4) for our visualizations, storys and interactive elements. 
+We have begun to develop our Tableau [dashboard](https://public.tableau.com/app/profile/butler.bootcamp.2022/viz/BoardgameDashboard) for our visualizations, storys and interactive elements. 
 - Interative elements would be a sorting option for users and a dropdown selection tool.
 - Possibly a search function type interaction
 
