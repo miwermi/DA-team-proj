@@ -65,6 +65,7 @@ As a team, we’ve begun to discuss ideas for our dashboard that will be key in 
 
 <img width="412" alt="ERD Image" src="https://github.com/miwermi/DA-team-proj/blob/main/graphics/dashboard-draft.png">
    
-- We are planning on creating a Tableau dashboard, for visualizations and storys.
+We have begun to develop our Tableau [dashboard](https://public.tableau.com/app/profile/butler.bootcamp.2022/viz/BoardgameDashboard/Dashboard4) for our visualizations, storys and interactive elements. 
 - Interative elements would be a sorting option for users and a dropdown selection tool.
-- We have also consdiered [Bartle's Personas](https://www.interaction-design.org/literature/article/bartle-s-player-types-for-gamification#:~:text=There%20are%20four%20player%20types,any%20combination%20of%20these%20types) added in as a comparison with our analysis, but this will depend on whether our data analysis lends itself to this. 
+- Possibly a search function type interaction
+
