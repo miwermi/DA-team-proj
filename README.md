@@ -19,22 +19,6 @@ After cleaning data in Excel, data was analyzed in Python’s Jupyter Notebook, 
 ### Presentation
 A first rough draft of our final presentation can be found at: https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing
 
-### Communication Protocols 
-As a group we communicate through Zoom, Slack and even our shared GitHub repository. During our meetings on Zoom, we ensure all can share and be heard we each allow the others a chance to present ideas while others stay muted. We found that cycling alphabetically and using the “Raise Hand” feature to be helpful.  
-
-Within Slack, we have a channel made specifically for our project, where we can chat, update progress, and share links, images, data, etc. We also created a channel for links to our data sources that allow them to be easily accessible. 
-
-Lastly, within our project repository, we all have created our own branches to that we can upload data, code, and resources before committing to the main branch. We’ve also found that simply communicating through Slack and Zoom when pushing directly into the main branch is acceptable. 
-   
-### Team Roles
-| Team Member Name | Role (S1) | Description      |
-|------------------|---------|--------------------|
-| Abe | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
-| Courtney | &#9651; | Triangle: Data Cleaning & Mockup of the Machine Learning Model |
-| Masie | &#9675; | Circle: Rubric Compliance & README Composition |
-| Michelle | &#9744; | Square: Responsible for the Repository, Dashboard Draft |
-| Rachel | X | X: Final Decision on Technologies Used, Database Connection |
-
 ## Machine Learning Model
 Our goal for this project is to use K-Means unsupervised machine learning.  We plan on starting with Linear Regression, and exploring Multi-Linear Regression analysis in R.  We are also exploring other analyses, possibly a 2 Way ANOVA looking at game players, and game play time agains the category and meachanics data.  
 Because there are so many features in both the category and mechanics data, we plan to use PCA to reduce these number of features. We are also interested in cluster using Kmeans and the elbow method to see if some of the data are grouped differently than they are currently labelled by BoardGameGeeks.
