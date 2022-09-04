@@ -17,7 +17,7 @@ For the data we chose to use for our project, we collected source data that came
 After cleaning data in Excel, data was analyzed in Python’s Jupyter Notebook, R & R Studio, and PostgreSQL in PG Admin 4. Our next step is to take the final dataset into Tableau to create visualizations of all we had discovered.
 
 ### Presentation
-A first rough draft of our final presentation can be found at: https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing
+A draft of our final presentation on Google Slides can be found [here](https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing).
 
 ## Machine Learning Model
 Our goal for this project is to use K-Means unsupervised machine learning.  We plan on starting with Linear Regression, and exploring Multi-Linear Regression analysis in R.  We are also exploring other analyses, possibly a 2 Way ANOVA looking at game players, and game play time agains the category and meachanics data.  
