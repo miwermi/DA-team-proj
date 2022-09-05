@@ -66,7 +66,7 @@ As a team, we’ve begun to discuss ideas for our dashboard that will be key in 
 <img width="412" alt="ERD Image" src="https://github.com/miwermi/DA-team-proj/blob/main/graphics/dashboard-draft.png">
    
 We have begun to develop our Tableau [dashboard](https://public.tableau.com/app/profile/butler.bootcamp.2022/viz/BoardgameDashboard) for our visualizations, storys and interactive elements. 
-- Interative elements of Tableau allow for user selection in several different visuals
+- Interactive elements of Tableau allow for user selection in several different visuals
 - We would also like to have a sorting option for users with buttons or a dropdown selection tool
 - Possibly a search function type interaction?
 
