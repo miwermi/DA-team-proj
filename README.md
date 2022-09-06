@@ -58,7 +58,9 @@ For our sample data, as well as for our final database, we separated tables of p
 
 Saved in the file [queries.sql]( https://github.com/miwermi/DA-team-proj/blob/main/sql/queries.sql) you will find the code for joining the tables and creating this final bg_plusstats table. Additionally, the connection string code to connect PostgreSQL to the jupyter notebook is located in the file [database_connection.ipynb]( https://github.com/miwermi/DA-team-proj/blob/main/sql/database_connection.ipynb).  
 
-<img width="412" alt="ERD Image" src="https://user-images.githubusercontent.com/102122063/187095802-ba01f4b6-9950-4ce8-82fa-9803c108f59b.png">
+![image](https://user-images.githubusercontent.com/102757676/188759022-b6d74018-d6c3-4bcb-9d64-3a1ff7760ae5.png)
+
+
     
 ## Dashboard
 As a team, we’ve begun to discuss ideas for our dashboard that will be key in presenting our findings and telling our story. 
