@@ -44,3 +44,15 @@ CREATE TABLE ratings (
 	PRIMARY KEY (object_id),
     UNIQUE (object_id)
 );
+
+CREATE TABLE stats (
+	object_id INT NOT NULL,
+    game_name VARCHAR NOT NULL,
+	average DEC NOT NULL,
+	baverage DEC NOT NULL,
+	stdev DEC NOT NULL,
+	complexity DEC NOT NULL,
+	site_views INT NOT NULL
+	PRIMARY KEY (object_id),
+    UNIQUE (object_id)
+);
