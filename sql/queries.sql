@@ -74,5 +74,36 @@ FROM det_cat_mech
 LEFT JOIN ratings
 ON det_cat_mech.object_id = ratings.object_id;
 
-SELECT * FROM bg_fulldata;
+SELECT bg_fulldata.object_id,
+	bg_fulldata.game_name,
+	bg_fulldata.year_published,
+	bg_fulldata.min_players,
+	bg_fulldata.max_players,
+	bg_fulldata.min_playtime,
+	bg_fulldata.max_playtime,
+	bg_fulldata.category_1,
+	bg_fulldata.category_2,
+	bg_fulldata.category_3,
+	bg_fulldata.category_4,
+	bg_fulldata.category_5,
+	bg_fulldata.category_6,
+	bg_fulldata.mech_1,
+	bg_fulldata.mech_2,
+	bg_fulldata.mech_3,
+	bg_fulldata.mech_4,
+	bg_fulldata.mech_5,
+	bg_fulldata.mech_6,
+	bg_fulldata.total_votes,
+	bg_fulldata.users_rated,
+	stats.average,
+	stats.baverage,
+	stats.stddev,
+	stats.complexity,
+	stats.siteviews
+INTO bg_plusstats
+FROM bg_fulldata
+LEFT JOIN stats
+ON bg_fulldata.object_id = stats.object_id;
+
+SELECT * FROM bg_plusstats;
 
