@@ -10,7 +10,7 @@ The following are some examples of the questions we asked prior to our analysis 
 -	After applying machine learning to categorize games, how do these algin with current genre/categorical classifications already assigned?
 -	How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned?
 
-Our big question though was, :thinking:
+:thinking: The big question, however, was, 
 - Can we recommend board games to the users based on boardgame characteristics and create an interactive recommender? 
 
 ### Outline of the project 
