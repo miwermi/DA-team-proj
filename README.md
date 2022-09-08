@@ -18,15 +18,13 @@ For the data we chose to use for our project, we collected source data that came
 
 After cleaning data in Excel, data was analyzed in Python’s Jupyter Notebook, R & R Studio, and PostgreSQL in PG Admin 4. Our next step is to take the final dataset into Tableau to create visualizations of all we had discovered.
 
+### Results
+
 ### Presentation
 A draft of our final presentation on Google Slides can be found [here](https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing).
 
 ## Machine Learning Model
-Our goal for this project is to use K-Means unsupervised machine learning.  We plan on starting with Linear Regression, and exploring Multi-Linear Regression analysis in R.  We are also exploring other analyses, possibly a 2 Way ANOVA looking at game players, and game play time agains the category and meachanics data.  
-Because there are so many features in both the category and mechanics data, we plan to use PCA to reduce these number of features. We are also interested in cluster using Kmeans and the elbow method to see if some of the data are grouped differently than they are currently labelled by BoardGameGeeks.
-
-Currently we are looking to input game play time, player min/max, 'best' game by votes both raw and weighted, complexity, site views, category, and game mechanics. 
-- A couple possible hypotheses:  Games with more people, longer play times, higher compexity should be clustered together and include labels like "civilization", "building", "campaigns". Are there games with fewer people, with shorter play times that also cluster together under categories or mechanics?  Any outliers?
+Due to the large number of features in both the category and mechanics data, we used PCA to reduce these number of features. We then clustered our data using Kmeans and the elbow method to see if some of the data are grouped differently than they are currently labelled by BoardGameGeeks.
 
 ### Preliminary Preprocessing
 The raw data was in .csv format, was opened in Excel for initial cleaning.  Deleted columns that we determined were irrelevant to our analysis (sort index: the games already have an object id, min age and player age, language dependence; podcast, blog, website: these had no bearing, board game honors (with out honors drops approx 1600 games), board game artists, publishers, game creators:  nearly all of these categories dropped too many values as well as create a skewed dataset.
@@ -54,14 +52,12 @@ A K-Means model was used to categorize the games based on Principal Component An
 
 <img width="554" alt="image (1)" src="https://user-images.githubusercontent.com/102122063/187102553-931d0f40-3943-445c-a863-35ce906b5580.png">
 
-
 ## Database
 For our sample data, as well as for our final database, we separated tables of pertinent information from cleaned data. Then we joined tables together to get the data desired for the machine learning model. The file [createtables.sql](https://github.com/miwermi/DA-team-proj/blob/main/sql/createtables.sql) in the SQL folder, has the code used to create the original five tables in the database. These tables were then joined together to create the [bg_plusstats]( https://github.com/miwermi/DA-team-proj/blob/main/sql/bg_plusstats.csv) table. 
 
 Saved in the file [queries.sql]( https://github.com/miwermi/DA-team-proj/blob/main/sql/queries.sql) you will find the code for joining the tables and creating this final bg_plusstats table. Additionally, the connection string code to connect PostgreSQL to the jupyter notebook is located in the file [database_connection.ipynb]( https://github.com/miwermi/DA-team-proj/blob/main/sql/database_connection.ipynb).  
 
 ![image](https://user-images.githubusercontent.com/102757676/188759022-b6d74018-d6c3-4bcb-9d64-3a1ff7760ae5.png)
-
 
     
 ## Dashboard
