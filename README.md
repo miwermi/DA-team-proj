@@ -31,6 +31,8 @@ A draft of our final presentation on Google Slides can be found [here](https://d
 ## Machine Learning Model
 Due to the large number of features in both the category and mechanics data, we used PCA to reduce these number of features. We then clustered our data using Kmeans and the elbow method to see if some of the data are grouped differently than they are currently labelled by BoardGameGeeks.
 
+Our project hypothesis was: Games with more people, longer play times, higher complexity will be clustered together by machine learning. Labels like "civilization", "building", "campaigns" may be appropriate ones to apply to such groups.
+
 ### Preliminary Preprocessing
 The raw data was in .csv format, was opened in Excel for initial cleaning.  Deleted columns that we determined were irrelevant to our analysis (sort index: the games already have an object id, min age and player age, language dependence; podcast, blog, website: these had no bearing, board game honors (with out honors drops approx 1600 games), board game artists, publishers, game creators:  nearly all of these categories dropped too many values as well as create a skewed dataset.
 
