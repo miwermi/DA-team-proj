@@ -16,7 +16,7 @@ The following are some examples of the questions we asked prior to our analysis 
 ### Outline of the project 
 For the data we chose to use for our project, we collected source data that came from [boardgamegeek]( https://boardgamegeek.com/wiki/page/BGG_XML_API) and [Kaggle]( https://www.kaggle.com/datasets/extralime/20000-boardgames-dataset). The databases of board games are vast with their descriptions, rules, requirements for play, time to play, number of players, etc. A more in-depth description can be found in our [r&d]( https://github.com/miwermi/DA-team-proj/tree/main/r%26d) folder under DataDescription. You can find our original sourced and cleaned databases in our [resources-1 folder](https://github.com/miwermi/DA-team-proj/tree/main/resources/resources-1) titled bgg_dataset. 
 
-After cleaning data in Excel, data was analyzed in Python’s Jupyter Notebook, R & R Studio, and PostgreSQL in PG Admin 4. Our next step is to take the final dataset into Tableau to create visualizations of all we had discovered.
+After cleaning data in Excel, data was analyzed in using unsupervised machine learning in Python’s Jupyter Notebook, R & R Studio, and PostgreSQL in PG Admin 4. We then used the final dataset in Tableau to create our dashboard and interactive visualizations of all we had discovered. You can find a description of our dshboard within this README, as well as visiting it [here](https://public.tableau.com/app/profile/butler.bootcamp.2022/viz/BoardgameDashboard)
 
 ### Presentation
 A draft of our final presentation on Google Slides can be found [here](https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing).
@@ -30,7 +30,7 @@ After running our machine learning model, we found that it categorized the games
 
 
 ## Machine Learning Model
-Due to the large number of features in both the category and mechanics data, we used PCA to reduce these number of features. We then clustered our data using Kmeans and the elbow method to see if some of the data are grouped differently than they are currently labelled by BoardGameGeeks.
+We began our analysis by begining with a Multi-Linear Regression analysis in R. Then due to the large number of features in both the category and mechanics data, we used PCA to reduce these number of features. We then clustered our data using Kmeans and the elbow method to see if some of the data are grouped differently than they are currently labelled by BoardGameGeeks.
 
 Our hypothesis was that the machine learning model will categorize games in a way different from the way humans do. Such as games with more people, longer play times, higher complexity will be clustered together by machine learning. Labels like "civilization", "building", "campaigns" may be appropriate ones to apply to such groups.
 
