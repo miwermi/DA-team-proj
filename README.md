@@ -1,15 +1,17 @@
 # Overview of Project
 
-For our final project, we agreed to dive into the fascinating world of Boardgames! 
-Even with digital technology, people still like to gather in a room and interact while sharing an imaginative experience together. As one team member pointed out, even in an apocalyptic universe, people would still gather to play these types of games. With one content expert on the team, and the rest of us being novices, we wondered if there were clusters of games – and about the possibility of making useful recommendations in an interactive dashboard.Along with recommendations, we plan to create a visual story of the games with descriptions, rules, mechanics, requirements for play, time to play, number of players, etc. This visual landscape can be explored by those eager to find new games and others who want to see how their favorites may be categorized and compared to other games.
+For our final project, we dove into the fascinating world of Boardgames! Even with digital technology, people still like to gather in a room and interact while sharing an imaginative experience together. As one team member pointed out, even in an apocalyptic universe, people would still gather to play these types of games. With one content expert on the team, and the rest of us being novices, we wondered if there were clusters of games – and about the possibility of making useful recommendations in an interactive dashboard. After our analysis of our boardgame dataset we eventually created a visual landscape of boardgames that can be explored by those eager to find new games and others who want to see how their favorites may measure up to other games.
 
-Some questions we are asking include, yet are not limited to the following:
+The following are some examples of the questions we asked prior to our analysis as well as a few we found ourselves asking after our analysis.
 
 -	What genre do people tend to enjoy the most?
 -	Which year released the most top-rated board games?
--	Can we recommend board games to the users based on boardgame characteristics?
--	After applying machine learning to categorize these games, does that match up with the genre field already established?
+-   Which boardgame mechanic is the most popular? 
+-	After applying machine learning to categorize games, how do these algin with current genre/categorical classifications already assigned?
 -	How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned?
+
+Our big question though was,
+- Can we recommend board games to the users based on boardgame characteristics and create an interactive recommender? 
 
 ### Outline of the project 
 For the data we chose to use for our project, we collected source data that came from [boardgamegeek]( https://boardgamegeek.com/wiki/page/BGG_XML_API) and [Kaggle]( https://www.kaggle.com/datasets/extralime/20000-boardgames-dataset). The databases of board games are vast with their descriptions, rules, requirements for play, time to play, number of players, etc. A more in-depth description can be found in our [r&d]( https://github.com/miwermi/DA-team-proj/tree/main/r%26d) folder under DataDescription. You can find our original sourced and cleaned databases in our [resources folder](https://github.com/miwermi/DA-team-proj/tree/main/resources).
