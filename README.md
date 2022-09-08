@@ -34,6 +34,8 @@ We began our analysis by begining with a Multi-Linear Regression analysis in R. 
 
 Our hypothesis was that the machine learning model will categorize games in a way different from the way humans do. Such as games with more people, longer play times, higher complexity will be clustered together by machine learning. Labels like "civilization", "building", "campaigns" may be appropriate ones to apply to such groups.
 
+Our Machine Learning model code is within [ML_connected_to_SQLdataset] (https://github.com/miwermi/DA-team-proj/blob/main/ML_connected_to_SQLdataset.ipynb)
+
 ### Preliminary Preprocessing
 The raw data was in .csv format, was opened in Excel for initial cleaning.  Deleted columns that we determined were irrelevant to our analysis (sort index: the games already have an object id, min age and player age, language dependence; podcast, blog, website: these had no bearing, board game honors (with out honors drops approx 1600 games), board game artists, publishers, game creators:  nearly all of these categories dropped too many values as well as create a skewed dataset.
 
