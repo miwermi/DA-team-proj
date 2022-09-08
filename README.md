@@ -61,14 +61,14 @@ Saved in the file [queries.sql]( https://github.com/miwermi/DA-team-proj/blob/ma
 
     
 ## Dashboard
-As a team, we’ve begun to discuss ideas for our dashboard that will be key in presenting our findings and telling our story. 
+As a team, we discussed ideas for our dashboard that will be key in presenting our findings and telling our story and developed an inital outline. 
 
 <img width="412" alt="ERD Image" src="https://github.com/miwermi/DA-team-proj/blob/main/graphics/dashboard-draft.png">
    
-We have begun to develop our Tableau [dashboard](https://public.tableau.com/app/profile/butler.bootcamp.2022/viz/BoardgameDashboard) for our visualizations, storys and interactive elements. 
-- Interactive elements of Tableau allow for user selection in several different visuals
-- We would also like to have a sorting option for users with buttons or a dropdown selection tool
-- Possibly a search function type interaction?
+Then based on our data and alaysis, we created our interactive dashboard using Tableau. You can visit our dashboard [here](https://public.tableau.com/app/profile/butler.bootcamp.2022/viz/BoardgameDashboard) for our visualizations, storys and interactive elements. 
+- Interactive elements of Tableau allows for user selection in several different visuals and tables.
+- There are also sorting options for users with buttons always well as dropdown and sliding selection tools.
+- We originally hoped to include an interative recommender through either a search function or multiple choice function. This is one feature we wished to include and may have managed our project differently to include this interactive feature. 
 
-Here is a sneak peek at our Dashboard. :smile:
+#### Here is a sneak peek at our Dashboard. :smile:
 <div class='tableauPlaceholder' id='viz1662675474335' style='position: relative'><noscript><a href='#'><img alt='Board Game Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;BoardgameDashboard&#47;BoardGameDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BoardgameDashboard&#47;BoardGameDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;BoardgameDashboard&#47;BoardGameDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
