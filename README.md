@@ -46,6 +46,25 @@ For R analysis, bucketed games with max players to 20+, changed min and max play
 ![datacl2](https://user-images.githubusercontent.com/102183530/187327618-add74d87-d9c1-4b3d-a9d5-1d63f8a20a48.png)
 ![datacl3](https://user-images.githubusercontent.com/102183530/187327625-49950472-aebc-4e84-ad21-1d581bc68a03.png)
 
+Using ggplot to show how siteviews coorelates with class and average or popular votes below:
+![siteviewsvavg](https://user-images.githubusercontent.com/102183530/189236203-ec87f189-a35e-4fee-bf53-6ee6c8fdc918.png)
+![BGClassvAvg](https://user-images.githubusercontent.com/102183530/189236215-ee776a4f-c39a-4e5c-b388-e254bd0f711d.png)
+
+Further cleaning and analysis had to be run in Google Colaboratory due to the size to complete elbow curves to determine KMeans cluster sizes to try.
+https://colab.research.google.com/drive/13yezwjgZvI8a0LfYSRZtbKnYFV_nsqK3?usp=sharing
+
+After using KMeans and elbow curves on categories and mechanics alone, we also combined both to see if the elbow curve would show a difference using both.
+![elbowcurvecat](https://user-images.githubusercontent.com/102183530/189236767-d1fb63a0-378b-4a88-832f-fa1e7168bc63.png)
+![elbow mech](https://user-images.githubusercontent.com/102183530/189236804-3fbbbbef-aeb0-4266-af3b-61d91da81f58.png)
+![elbowcurve cat   mech combo](https://user-images.githubusercontent.com/102183530/189236815-5bc745e2-4ddd-430c-b035-910d1ef987d2.png)
+
+Then using R as an analysis, looked into multi-linear regressions.
+![predavgmultilinear](https://user-images.githubusercontent.com/102183530/189236949-f14b1ab8-b4f0-42cd-99c1-ab007eb60716.png)
+![mulitlinear regression averages](https://user-images.githubusercontent.com/102183530/189236969-3bdbb3c3-3d4d-450d-b10e-9b56a7d412a8.png)
+We looked for significance in predicting which games would be more popular as well as, predicing if the class definitiions were statistically significant.
+
+Based on the p-value for both predictions.  The amount of time, player count, siteviews, average votes, and class are all statistically significant to which games are the highest/lowest rated.
+
 The preliminary data preprocessing for the machine learning analysis was done by splitting the board game mechanics column into 6 columns within Excel. Then, a list of all the mechanics was generated in Jupyter Notebook using the following code:
 ```
 mechanics = [] columns = ['boardgamemechanic1', 'boardgamemechanic2', 'boardgamemechanic3', 'boardgamemechanic4', 'boardgamemechanic5', 'boardgamemechanic6'] for column in columns: for mechanic in df[column]: if mechanic not in mechanics: mechanics.append(mechanic)
