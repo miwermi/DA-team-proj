@@ -1,8 +1,8 @@
 # Overview of Project
 
-For our final project, we dove into the fascinating world of Boardgames! Even with digital technology, people still like to gather in a room and interact while sharing an imaginative experience together. As one team member pointed out, even in an apocalyptic universe, people would still gather to play these types of games. With one content expert on the team, and the rest of us being novices, we wondered if there were clusters of games – and about the possibility of making useful recommendations in an interactive dashboard. After our analysis of our boardgame dataset we eventually created a visual landscape of boardgames that can be explored by those eager to find new games and others who want to see how their favorites may measure up to other games.
+For our final project, we dove into the fascinating world of Boardgames! Even with digital technology, people still like to gather in a room and interact while sharing an imaginative experience together. As one team member pointed out, even in an apocalyptic universe, people would still gather to play these types of games. With one content expert on the team, and the rest of us being novices, we wondered if there were clusters of games – and about the possibility of making useful recommendations in an interactive dashboard. After our analysis of our boardgame dataset we eventually created a visual landscape of boardgames that can be explored by those eager to find new games and others who want to see how their favorites may measure up to other games. :thumbsup:
 
-The following are some examples of the questions we asked prior to our analysis as well as a few we found ourselves asking after our analysis.
+The following are some examples of the questions we asked prior to our analysis as well as a few we found ourselves asking after our analysis. 
 
 -	What genre do people tend to enjoy the most?
 -	Which year released the most top-rated board games?
@@ -10,7 +10,7 @@ The following are some examples of the questions we asked prior to our analysis 
 -	After applying machine learning to categorize games, how do these algin with current genre/categorical classifications already assigned?
 -	How does unsupervised machine learning categorize games vs the pre-existing genre/label assigned?
 
-Our big question though was,
+Our big question though was, :thinking:
 - Can we recommend board games to the users based on boardgame characteristics and create an interactive recommender? 
 
 ### Outline of the project 
@@ -70,6 +70,5 @@ We have begun to develop our Tableau [dashboard](https://public.tableau.com/app/
 - We would also like to have a sorting option for users with buttons or a dropdown selection tool
 - Possibly a search function type interaction?
 
-One example from our dashboard is a pair of pie charts of the many different categories & mechanics of the games:
-<div class='tableauPlaceholder' id='viz1662322591227' style='position: relative'><noscript><a href='#'><img alt='Categories+Mechanics Pies ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CategoryandMechanicsPies&#47;CategoriesMechanicsPies&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CategoryandMechanicsPies&#47;CategoriesMechanicsPies' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CategoryandMechanicsPies&#47;CategoriesMechanicsPies&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>       
-
+Here is a sneak peek at our Dashboard. :smile:
+<div class='tableauPlaceholder' id='viz1662675474335' style='position: relative'><noscript><a href='#'><img alt='Board Game Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;BoardgameDashboard&#47;BoardGameDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BoardgameDashboard&#47;BoardGameDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;BoardgameDashboard&#47;BoardGameDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
