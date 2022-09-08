@@ -50,7 +50,7 @@ A K-Means model was used to categorize the games based on Principal Component An
 
 *Example of the 3D-Scatter with the PCA data and the clusters*
 
-<img width="554" alt="image (1)" src="https://user-images.githubusercontent.com/102122063/187102553-931d0f40-3943-445c-a863-35ce906b5580.png">
+<img width="573" alt="3d scatter final" src="https://user-images.githubusercontent.com/102122063/189235629-b7d4baac-6dc6-4248-ac90-15a750d4702c.png">
 
 ## Database
 For our sample data, as well as for our final database, we separated tables of pertinent information from cleaned data. Then we joined tables together to get the data desired for the machine learning model. The file [createtables.sql](https://github.com/miwermi/DA-team-proj/blob/main/sql/createtables.sql) in the SQL folder, has the code used to create the original five tables in the database. These tables were then joined together to create the [bg_plusstats]( https://github.com/miwermi/DA-team-proj/blob/main/sql/bg_plusstats.csv) table. 
