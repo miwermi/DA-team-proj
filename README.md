@@ -19,7 +19,8 @@ For the data we chose to use for our project, we collected source data that came
 After cleaning data in Excel, data was analyzed in using unsupervised machine learning in Python’s Jupyter Notebook, R & R Studio, and PostgreSQL in PG Admin 4. We then used the final dataset in Tableau to create our dashboard and interactive visualizations of all we had discovered. You can find a description of our dshboard within this README, as well as visiting it [here](https://public.tableau.com/app/profile/butler.bootcamp.2022/viz/BoardgameDashboard)
 
 ### Presentation
-A draft of our final presentation on Google Slides can be found [here](https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing).
+Our final presentation on Google Slides can be found [here](https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing).
+This is our practice video of our presentation - [video](https://iu.mediaspace.kaltura.com/media/t/1_3d47lhtl)
 
 ### Results
 After running our machine learning model, we found that it categorized the games in a way that demonstrated clear statistical trends. The hypothesis of groups/clusters 1, 3, and 4 having different weighted scores (1, then 4, then 3 in ascending order) was confirmed.
@@ -50,8 +51,7 @@ Using ggplot to show how siteviews coorelates with class and average or popular 
 ![siteviewsvavg](https://user-images.githubusercontent.com/102183530/189236203-ec87f189-a35e-4fee-bf53-6ee6c8fdc918.png)
 ![BGClassvAvg](https://user-images.githubusercontent.com/102183530/189236215-ee776a4f-c39a-4e5c-b388-e254bd0f711d.png)
 
-Further cleaning and analysis had to be run in Google Colaboratory due to the size to complete elbow curves to determine KMeans cluster sizes to try.
-https://colab.research.google.com/drive/13yezwjgZvI8a0LfYSRZtbKnYFV_nsqK3?usp=sharing
+Further cleaning and analysis had to be run in [Google Colaboratory](https://colab.research.google.com/drive/13yezwjgZvI8a0LfYSRZtbKnYFV_nsqK3?usp=sharing) due to the size to complete elbow curves to determine KMeans cluster sizes to try.
 
 After using KMeans and elbow curves on categories and mechanics alone, we also combined both to see if the elbow curve would show a difference using both.
 ![elbowcurvecat](https://user-images.githubusercontent.com/102183530/189236767-d1fb63a0-378b-4a88-832f-fa1e7168bc63.png)
