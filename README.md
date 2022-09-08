@@ -18,6 +18,9 @@ For the data we chose to use for our project, we collected source data that came
 
 After cleaning data in Excel, data was analyzed in Python’s Jupyter Notebook, R & R Studio, and PostgreSQL in PG Admin 4. Our next step is to take the final dataset into Tableau to create visualizations of all we had discovered.
 
+### Presentation
+A draft of our final presentation on Google Slides can be found [here](https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing).
+
 ### Results
 After running our machine learning model, we found that it categorized the games in a way that demonstrated clear statistical trends. The hypothesis of groups/clusters 1, 3, and 4 having different weighted scores (1, then 4, then 3 in ascending order) was confirmed.
 
@@ -25,8 +28,6 @@ After running our machine learning model, we found that it categorized the games
 
 <img width="573" alt="3d scatter final" src="https://user-images.githubusercontent.com/102122063/189235629-b7d4baac-6dc6-4248-ac90-15a750d4702c.png">
 
-### Presentation
-A draft of our final presentation on Google Slides can be found [here](https://drive.google.com/drive/folders/1dIl_HQMr_-6D60YDfMqz8rI3Jj3ies11?usp=sharing).
 
 ## Machine Learning Model
 Due to the large number of features in both the category and mechanics data, we used PCA to reduce these number of features. We then clustered our data using Kmeans and the elbow method to see if some of the data are grouped differently than they are currently labelled by BoardGameGeeks.
